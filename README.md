@@ -6,9 +6,9 @@ The purpose of this analysis is to apply machine learning to predict credit card
 ## Results: 
 
 ### Oversampling with RandomOverSampler
-- Balanced Accuracy Score: 0.65 (Highest balanced accuracy score of the 2 machine oversampling models)
+- Balanced Accuracy Score: 0.65 
 - Precision Score: 0.99
-- Recall Score: 0.59 (Highest recall score of the 2 oversampling models)
+- Recall Score: 0.59
 
 <img width="784" alt="Screen Shot 2021-05-30 at 5 37 31 PM" src="https://user-images.githubusercontent.com/77817870/120125550-2f5b2d80-c16e-11eb-938e-b3c004f85b68.png">
 
@@ -41,10 +41,11 @@ The purpose of this analysis is to apply machine learning to predict credit card
 <img width="773" alt="Screen Shot 2021-05-30 at 5 52 49 PM" src="https://user-images.githubusercontent.com/77817870/120126061-e4421a00-c16f-11eb-824d-58c8a206b585.png">
 
 ### Machine Learning with EasyEnsembleClassifier
-- Balanced Accuracy Score: 0.93 (Highest balanced accuracy score of the 2 machine learning models)
+- Balanced Accuracy Score: 0.93 (Highest balanced accuracy score of the machine learning models)
 - Precision Score: 0.99
-- Recall Score: 0.94 (Highest recall score of the 2 machine learning models)
+- Recall Score: 0.94 (Highest recall score of the machine learning models)
 
 <img width="779" alt="Screen Shot 2021-05-30 at 5 54 18 PM" src="https://user-images.githubusercontent.com/77817870/120126131-18b5d600-c170-11eb-9b7b-4f67f5cf60fb.png">
 
-
+## Summary: 
+In summary, the machine learning model that performed the best was EasyEnsembleClassifier. This model had the highest balanced accuracy and recall score of all models. The machine learning with the worst performance is ClusterCentroids. This model had the lowest balanced accuracy and recall score of all models. The rest of the models did not have stellar performance, an would not be recommended to use. The model recommended to use would be the EasyEnsembleClassifier because it has the best balanced accuracy score and the imbalanced classification report shows totals greater than 0.87 or 87%.  
