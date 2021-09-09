@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview: 
-The purpose of this analysis is to apply machine learning to predict credit card risk using the credit card credit dataset from LendingClub. Through different techniques we had to train and evaluate models with unbalanced classes and build and evaluate models using resampling. We oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. We then used a the SMOTEENN algorithm for combination sampling. Finally, we compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+The purpose of this analysis is to apply machine learning to predict credit card risk using the credit card credit dataset from LendingClub. Through different techniques we had to train and evaluate models with unbalanced classes and build and evaluate models using resampling. We oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. We then used the SMOTEENN algorithm for combination sampling. Finally, we compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 
 ## Results: 
 
